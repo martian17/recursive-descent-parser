@@ -1,4 +1,4 @@
-//require ebnfparser.js
+const parseEBNF = require("ebnfparser.js");
 
 
 

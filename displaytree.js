@@ -30,3 +30,5 @@ var displayTree = function(ast){
     iterator(ast,0.3);
 };
 
+module.exports = displayTree;
+

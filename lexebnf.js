@@ -1,3 +1,5 @@
+var lexe = {};
+
 var isAlphabet = function(str){
     if(str.match(/[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ]/g)){
         return true;
@@ -88,3 +90,5 @@ var lexComment = function(lexInfo){
     }
     return true;
 };
+
+module.exports = lexEBNF;

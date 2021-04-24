@@ -1,4 +1,4 @@
-//require displaytree.js
+var displayTree = require("displaytree.js");
 
 var Stack = function(){
     var stack = null;
@@ -349,6 +349,6 @@ displayTree(result);
 
 
 
-
+module.exports = GenParser;
 
 

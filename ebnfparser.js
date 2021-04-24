@@ -1,5 +1,5 @@
-//require opp.js
-//require lexebnf.js
+const GenParser = require("opp.js");
+const lexEBNF = require("./lexebnf.js");
 
 var parser = new GenParser(
     [
@@ -62,3 +62,4 @@ var parseEBNF = function(str){
     return lines;
 };
 
+module.exports = parseEBNF;
