@@ -1,4 +1,4 @@
-const GenParser = require("opp.js");
+const GenParser = require("./opp.js");
 const lexEBNF = require("./lexebnf.js");
 
 var parser = new GenParser(

@@ -1,4 +1,4 @@
-const parseEBNF = require("ebnfparser.js");
+const parseEBNF = require("./ebnfparser.js");
 
 
 
@@ -253,3 +253,5 @@ var result = parser.parse("[3,5,8,2,3,5,2]");
 console.log(result);
 */
 
+
+module.exports = RecursiveDescentParser;
